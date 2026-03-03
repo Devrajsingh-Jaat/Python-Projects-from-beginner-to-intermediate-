@@ -34,13 +34,12 @@ print("Type 0 for rock, type 1 for paper, type 2 for scissor")
 
 user_choice = int(input("Enter your choice: "))
 
-ai_choice = random.randint(0, 2)
-
-if user_choice >= 3 or user_choice < 0:
+if user_choice >=3 or user_choice < 0:
     print("Invalid Number. You lose!")
 else:
     print(choice_game[user_choice])
 
+    ai_choice = random.randint(0, 2)
     print("Computer picked")
 
     if ai_choice == 0:

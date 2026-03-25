@@ -22,4 +22,4 @@ This repo contains Python projects that cover:
 
 ⚙️ Real-world mini applications
 
-Projects range from simple console programs to more structured intermediate-level applications.
+Projects range from simple console programs to more structured intermediate-level applications

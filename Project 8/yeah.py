@@ -3,15 +3,15 @@ file2 = "love"
 
 def calculate_love_score(firstname, secondname):
     fullname = (firstname + secondname).lower()
-    okay = 0
-    olo = 0
+    true_count = 0
+    love_count = 0
     for i in fullname:
         if i in file:
-            okay += 1
+            true_count += 1
         if i in file2:
-            olo += 1
+            love_count += 1
 
-    score = int(str(okay) + str(olo))
+    score = int(str(true_count) + str(love_count))
     print(score)
 
 

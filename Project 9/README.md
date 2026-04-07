@@ -11,7 +11,6 @@ A simple Python command-line application to encrypt and decrypt messages using t
 - Decode (decrypt) text back to original  
 - Keeps non-alphabet characters unchanged  
 - Runs in a loop until the user exits  
-- Beginner-friendly code  
 
 ---
 
